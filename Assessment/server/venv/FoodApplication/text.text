@@ -1,0 +1,5 @@
+ # obj=Food.objects.get(id=id)
+            # serializer=Foodserializer(obj,data=request.data)
+            # if serializer.is_valid():
+            #   serializer.save()
+            # return Response(serializer.data)
