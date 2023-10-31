@@ -1,0 +1,80 @@
+.container{
+    /* width:1000px; */
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    margin-top:30px;
+    background-color:#020230;
+}
+.swatches{
+    position:relative;
+    margin-top:10%;
+}
+.swatches >div{
+    border:1px solid transparent;
+    margin:4px;
+    height:250px;
+    width:100px;
+    border-radius:6px;
+    text-align: center;
+    cursor:pointer;
+    transform-origin:20% 100%;
+    position:absolute; 
+    top:0;
+    left:0;
+   transition:5s ;
+   transform:rotate(90deg);
+}
+h2 {
+    transform: rotate(-90deg);
+    padding:0 50px 60px 0;
+}
+/* .swatches:hover{
+    display:none;
+}
+  */
+.swatches > div:nth-child(1){
+    background-color: rgb(133, 144, 144);
+}
+.swatches > div:nth-child(2){
+    background-color:rgb(203, 146, 146);
+}
+.swatches > div:nth-child(3){
+    background-color: rgb(160, 160, 242);
+}
+.swatches > div:nth-child(4){
+    background-color: rgb(247, 247, 144);
+}
+.swatches > div:nth-child(5){
+    background-color:rgb(235, 190, 198);
+}
+.swatches > div:nth-child(6){
+    background-color:rgb(247, 218, 165);
+}
+
+.swatches > div:nth-child(7){
+    background-color:rgb(246, 172, 235);
+}
+
+.swatches > div:nth-child(8){
+    background-color:rgb(238, 225, 167);
+}
+.swatches > div:nth-child(9){
+    background-color:rgb(222, 165, 214);
+}
+.swatches > div:nth-child(10){
+    background-color:rgb(192, 244, 198);
+}
+.swatches > div:nth-child(11){
+    background-color:rgb(203, 192, 227);
+}
+.swatches > div:nth-child(12){
+    background-color:rgb(188, 251, 236);
+}
+.swatches > div:nth-child(13){
+    background-color:rgb(246, 113, 144);
+}
