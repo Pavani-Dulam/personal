@@ -1,0 +1,337 @@
+@media (min-width:0px) and (max-width:320px)
+{
+    
+    .headercom{
+        position:sticky;
+        width:320px;
+        justify-content:center;
+    }
+    .head1,.head2{
+        display:none;
+    }
+    .tag{
+        margin-top:1%;
+    }
+    
+    .tag li{
+        width:30px;
+        height:20px;
+        overflow: hidden;
+        font-size: x-small;
+
+    }
+    .side1{
+        display:none;
+    }
+    .side2{
+        display: block;
+    }
+    .side2 li{
+    
+        font-size:8px;
+        padding:0%;
+        flex:1;
+    }
+    .side2 ul{
+        margin-left:1%;
+    }
+    .pavani{
+        
+        /* background-color: aqua; */
+        display: flex;
+        gap:2%;
+        overflow: hidden;
+    }
+
+    .hd{
+        font-size:10px;
+    
+    }
+    
+    .im{
+        height:25px;
+        width:25px;
+    }
+    .pp{
+        margin-top:-1%;
+    
+    }
+    .pp p{
+        font-size:10px;
+    }
+    
+  }
+
+
+  @media (min-width:321px) and (max-width:375px) {
+    .App{
+        width:375px;
+    
+    } 
+    .head1,.head2{
+        display:none;
+    }
+    .tag li{
+        width:30px;
+        height:20px;
+        overflow: hidden;
+        font-size: x-small;
+
+    }
+    .side1{
+        display:none;
+        width:5rem;
+    }
+    .side2{
+        display: block;
+        width:5rem;
+    }
+    .side2 li{
+    
+        font-size:8px;
+        
+    }
+    .side2 ul{
+        margin-left:1%;
+    }
+    
+    .hd{
+        font-size:10px;
+    
+    }
+    
+    .im{
+        height:25px;
+        width:25px;
+    }
+    .pp{
+        margin-top:-1%;
+    
+    }
+    .pp p{
+        font-size:10px;
+    }
+    .pic{
+        width:100%;
+        background-color: blue;
+    }
+    .pavani div{
+        width:100%;
+    }
+    
+}
+
+@media (min-width:376px) and (max-width:425px) {
+    .App{
+        width:425px;
+    } 
+    .head1,.head2{
+        display:none;
+    }
+    .tag li{
+        width:30px;
+        height:20px;
+        overflow: hidden;
+        font-size: x-small;
+
+    }
+    .side1{
+        display:none;
+        width:15%;
+        
+    }
+    .side2{
+        display: block;
+        width:15%;
+        
+        
+    }
+    .side2 li{
+    
+        font-size:8px;
+        
+    }
+    .side2 ul{
+        margin-left:1%;
+    }
+    
+    .hd{
+        font-size:10px;
+    
+    }
+    
+    .im{
+        height:25px;
+        width:25px;
+    }
+    .pp{
+        margin-top:-1%;
+    
+    }
+    .pp p{
+        font-size:10px;
+    }
+    .pic{
+        
+        background-color: aqua;
+        width:100%;
+        
+    }
+    .pavani div{
+        width:95%;
+        margin-left:5%;
+    
+    }
+    .pavani{
+
+        width:100%;
+    }
+    
+} 
+
+@media (min-width:426px) and (max-width:768px) {
+    .App{
+        width:768px;
+    } 
+    .head1,.head2{
+        display:none;
+    }
+    .tag li{
+        width:40px;
+        height:20px;
+        overflow: hidden;
+        font-size: x-small;
+
+    }
+    .side1{ 
+        display:none;
+        width:15%;
+        
+    }
+    .side2{
+        display: block;
+        width:15%;
+        
+        
+    } 
+    .side2 li{
+    
+        font-size:8px;
+        
+    }
+    .side2 ul{
+        margin-left:1%;
+    }
+    
+    .hd{
+        font-size:10px;
+       
+    
+    }
+    
+    .im{
+        height:25px;
+        width:20px;
+        display:flex;
+    }
+    .pp{
+        margin-top:-1%;
+    
+    }
+    .pp p{
+        font-size:10px;
+    }
+    .pic{
+        
+        width:100%;
+        
+    
+        
+    }
+    
+    .pavani{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        
+        
+    
+    }
+    
+    
+    
+}  
+
+
+ @media (min-width:769px) and (max-width:1024px) {
+    .App{
+        width:1024px;
+    } 
+    .head1,.head2{
+        display:none;
+    }
+    .tag li{
+        width:100%;
+        height:20px;
+        overflow: hidden;
+        font-size: x-small;
+
+    }
+    .side1{ 
+        display:none;
+        width:15%;
+        
+    }
+    .side2{
+        display: block;
+        width:15%;
+        
+        
+    } 
+    .pavani{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        
+        
+    
+    }
+
+} 
+  /* @media (min-width:1025px) and (max-width:1440px) { 
+    .App{
+        width:1440px;
+        
+    } 
+   
+    .tag li{
+        width:100%;
+        height:20px;
+        overflow: hidden;
+        font-size: x-small;
+
+    }
+    .tags{
+        margin-left:2%;
+    }
+    .side1{ 
+        display:none;
+        width:15%;
+        
+    }
+    .side2{
+        display: block;
+        width:15%;
+        
+        
+    } 
+    .pavani{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        
+        
+    
+    }
+
+}    */
