@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+<style>
+form{
+    /* padding:200px; */
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    margin-top:150px;
+    margin-left:600px;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size:20px;
+}
+input{
+    padding:10px 20px;
+}
+</style>
+</head>
+<body>
+<form>
+<label for="email">Email:</label>
+<input type="email" id="mail"><br><br>
+
+<label for="firstName">First Name</label>
+<input type="text" id="fn"><br><br>
+
+<label for="lastName">Last Name</label>
+<input type="text" id="ln"><br><br>
+ 
+<button type="button" name="submit" onclick="myfunction()">submit</button>
+</form>
+<script>
+    function myfunction()
+    {
+        let myUsermail = document.getElementById('mail').value;
+        let myUsername = document.getElementById('fn').value;
+        let myUserlastname = document.getElementById('ln').value;
+
+          console.log(myUsermail);
+          console.log(myUsername);
+          console.log(myUserlastname);
+          
+    }
+    myfunction()
+</script>
+</body>
+</html>

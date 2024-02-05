@@ -1,0 +1,28 @@
+<html>
+<body>
+<input type="radio" name="myRadio" value="option1" id="radio1">
+<label for="radio1">Option 1</label>
+
+<input type="radio" name="myRadio" value="option2" id="radio2">
+<label for="radio2">Option 2</label>
+
+<input type="radio" name="myRadio" value="option3" id="radio3">
+<label for="radio3">Option 3</label>
+
+<script>
+  const radioButtons = document.querySelectorAll('input[name="myRadio"]');
+  const a=1;
+  
+
+  radioButtons.forEach(function(radio) {
+      radio.addEventListener("change", function() {
+      const selectedValue = document.querySelector('input[name="myRadio"]:checked').value;
+      const selectedText = document.querySelector('input[name="myRadio"]:checked + label').textContent;
+      document.write("Selected value: " + selectedValue);
+      document.write("Selected text: " + selectedText);
+    });
+  });
+
+</script>
+</body>
+</html>

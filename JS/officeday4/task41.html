@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task4</title>
+</head>
+<body>
+<table id="tab" border="1" cols="2">
+<tr class="tabr">
+<th class="tabh">head1</th>
+<th>head2</th>
+</tr>
+<tr class="tabr">
+<td class="tabd">1</td>
+<td>cse</td>
+</tr>
+<tr>
+<td>2</td>
+<td>civil</td>
+</tr>
+</table>
+<button id="click">click me</button>
+<script>
+var t=document.getElementById('tab');
+var btn=document.getElementById('click');
+btn.addEventListener('click',function(){
+    var newele=document.createElement('tr');
+    var new1=document.createElement('td');
+    newele.appendChild(new1);
+    var textnode=document.createTextNode('pavani');
+    new1.appendChild(textnode);
+    t.appendChild(new1);
+})
+</script>
+</body>
+</html>

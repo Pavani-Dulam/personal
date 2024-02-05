@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task9 random image</title>
+</head>
+<body>
+<h1>random images</h1>
+<img src="11.jpg" alt="random images" height="500px" width="500px" id="img"><br>
+<button id="button">click me</button>
+<script>
+    var btn=document.getElementById('button');
+    var pic=document.getElementById('img');
+    btn.addEventListener('click',function(){
+        var images=["11.jpg","2.jpg","3.jpg","4.jpg","5.jpg"];
+        var randomindexes=Math.floor(Math.random()*images.length);
+        var randomImages=images[randomindexes];
+        pic.src=randomImages;
+
+
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task11</title>
+</head>
+<body>
+<button id="size">Resize Window</button>
+<h1 id="head">My Name is PAVANI</h1>
+<p id="demo"></p>
+<script>
+para=document.getElementById('demo');
+heading=document.getElementById('head');
+btn=document.getElementById('size');
+btn.addEventListener('click',function(){
+    var widths=window.innerWidth;
+    var heights=window.innerHeight;
+    para.innerHTML=widths+"px"+"  "+heights+"px";
+    heading.style.fontSize=widths/10+"px"
+
+    
+})
+</script>
+    
+</body>
+</html>

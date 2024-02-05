@@ -1,0 +1,21 @@
+<html>
+<body>
+<select id="myDropdown">
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+    <option value="option3">Option 3</option>
+  </select>
+  
+  <script>
+    const dropdown = document.getElementById("myDropdown");
+  
+    dropdown.addEventListener("change", function() {
+      const selectedOption = dropdown.options[dropdown.selectedIndex];
+      const selectedValue = selectedOption.value;
+      const selectedText = selectedOption.text;
+      document.write("Selected value: " + selectedValue);
+      document.write("Selected text: " + selectedText);
+    });
+  </script>
+  </body>
+  </html>
